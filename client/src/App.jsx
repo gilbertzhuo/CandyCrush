@@ -13,6 +13,7 @@ function App() {
   const [currentColorArrangement, setColorArrangement] = useState([])
   const [squaredBeingDragged, setSquareBeingDragged] = useState(null)
   const [squareBeingReplaced, setsquareBeingReplaced] = useState(null)
+  const [score, setScore] = useState(0)
 
   const checkForColumnOfThree = () => {
     for(let i = 0; i < 47; i++) {
@@ -103,6 +104,7 @@ function App() {
     if (squareBeingReplacedId && validMove && (isAColumnOfFour || isARowOfFour || isAColumnOfThree || isARowOfThree)) {
       setSquareBeingDragged(null)
       setsquareBeingReplaced(null)
+      setScore(score+100)
     } else {
       currentColorArrangement[squareBeingReplacedId] = squareBeingReplaced.style.backgroundColor
       currentColorArrangement[squareBeingDraggedId] = squaredBeingDragged.style.backgroundColor
@@ -135,6 +137,8 @@ function App() {
   },[checkForColumnOfFour, checkForColumnOfThree, checkForRowOfFour,checkForRowOfThree, moveIntoSquareBelow,currentColorArrangement])
   return (
     <div className="app">
+       <h1>CANDY CRUSH</h1>
+       <p>Score: {score}</p>
       <div className="game">
         {currentColorArrangement.map((candyColor, index)=>(
           <div
