@@ -1,0 +1,2 @@
+.app{padding:30px;align-items:center;justify-content:center;flex-direction:column}.app,.game{display:flex}.game{width:40vw;height:40vw;flex-wrap:wrap}.game .box{width:5vw;height:5vw}@media (max-width:600px){.game{width:80vw;height:80vw}.game .box{width:10vw;height:10vw}}
+/*# sourceMappingURL=main.9c5aee85.chunk.css.map */

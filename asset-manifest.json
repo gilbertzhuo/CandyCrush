@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CandyCrush/static/css/main.9c5aee85.chunk.css",
+    "main.js": "/CandyCrush/static/js/main.1bc6bb64.chunk.js",
+    "main.js.map": "/CandyCrush/static/js/main.1bc6bb64.chunk.js.map",
+    "runtime-main.js": "/CandyCrush/static/js/runtime-main.aa325fbf.js",
+    "runtime-main.js.map": "/CandyCrush/static/js/runtime-main.aa325fbf.js.map",
+    "static/js/2.835ce0f4.chunk.js": "/CandyCrush/static/js/2.835ce0f4.chunk.js",
+    "static/js/2.835ce0f4.chunk.js.map": "/CandyCrush/static/js/2.835ce0f4.chunk.js.map",
+    "index.html": "/CandyCrush/index.html",
+    "static/css/main.9c5aee85.chunk.css.map": "/CandyCrush/static/css/main.9c5aee85.chunk.css.map",
+    "static/js/2.835ce0f4.chunk.js.LICENSE.txt": "/CandyCrush/static/js/2.835ce0f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa325fbf.js",
+    "static/js/2.835ce0f4.chunk.js",
+    "static/css/main.9c5aee85.chunk.css",
+    "static/js/main.1bc6bb64.chunk.js"
+  ]
+}
